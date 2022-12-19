@@ -1,5 +1,8 @@
 def recursive_count(num = 0)
-  # type your code in here
+  while num < 10
+    puts num
+    num += 1
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME
